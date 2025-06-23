@@ -1,0 +1,64 @@
+====================================
+    GUIDE UTILISATEUR DESKMARKS
+====================================
+
+CONNEXION:
+----------
+Comptes disponibles:
+- admin / password
+- user / 123456
+- demo / demo
+
+ETAPES D'UTILISATION:
+--------------------
+1. IMPORTER UN FICHIER:
+   - Cliquer 'Parcourir'
+   - Selectionner fichier Excel (.xlsx/.xls) ou CSV
+   - Cliquer 'Poursuivre'
+   - Choisir la feuille (Excel uniquement)
+
+2. REMPLIR LES INFORMATIONS:
+   - Prenom: Votre prenom
+   - Matiere: Matiere concernee
+   - Filiere: AS ou ISE
+   - Classe: Selection automatique selon filiere
+     * AS: AS1, AS2, AS3
+     * ISE: ISEP1, ISEP2, ISEP3, ISE_MATHS, ISE-ECO
+
+3. ENVOYER MESSAGES WHATSAPP:
+   - Verifier que tous les champs sont remplis
+   - Cliquer 'Envoyer'
+
+ASSISTANT Q&A:
+--------------
+Menu > Outils > Assistant Q&A
+- Poser des questions sur vos donnees
+- Obtenir des reponses automatiques
+- Analyser les statistiques
+
+FONCTIONNALITES:
+---------------
+- Theme sombre/clair (bouton 'Theme')
+- Visualisation tableau des donnees
+- Generation automatique de statistiques
+- Messages WhatsApp personnalises
+
+PROBLEMES COURANTS:
+------------------
+- 'Fichier introuvable': Verifier le chemin
+- 'Impossible de lire': Format incorrect ou fichier ouvert
+- 'Identifiants incorrects': Utiliser les comptes test
+- Assistant ne repond pas: Charger d'abord un fichier
+
+RACCOURCIS:
+-----------
+- Entree: Se connecter
+- Tab: Navigation entre champs
+
+EQUIPE DE DEVELOPPEMENT:
+-----------------------
+- Moustapha Diago
+- Jonathan.D.Manga
+- Anta Ndao
+
+Version: 1.0
