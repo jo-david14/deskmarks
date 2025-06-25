@@ -58,7 +58,7 @@ class WhatsAppBot:
 
                     print(message)
                     driver.get(CHAT_URL.format(phone=numero[i]))
-                    time.sleep(20)
+                    time.sleep(30)
                     
                     
                     #input_box = driver.find_element(By.XPATH, '//*[@id="main"]/footer/div[1]/div/span/div/div[2]/div/div[3]/div[1]')
