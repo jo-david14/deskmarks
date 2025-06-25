@@ -256,7 +256,7 @@ class DeskMarksApp:
         
         # Logo de l'application - version compacte
         try:
-            logo_img = tk.PhotoImage(file="C:\\Users\\hadem\\OneDrive\\Images\\Deskmarks.png")
+            logo_img = tk.PhotoImage(file="Deskmarks.png")
             # Redimensionner le logo pour qu'il soit petit et discret
             logo_img = logo_img.subsample(4, 4)  # Divise la taille par 4 pour être plus petit
             logo_label = ttk.Label(widget_frame, image=logo_img)

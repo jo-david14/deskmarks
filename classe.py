@@ -60,10 +60,12 @@ class WhatsAppBot:
                     driver.get(CHAT_URL.format(phone=numero[i]))
                     time.sleep(20)
                     
-                    input_box = driver.find_element(By.XPATH, '//*[@id="main"]/footer/div[1]/div/span/div/div[2]/div/div[3]/div[1]')
-                    #input_box = WebDriverWait(driver, 30).until(
-            #EC.presence_of_element_located((By.XPATH, '//*[@id="main"]/footer/div[1]/div/span/div/div[2]/div/div[3]/div[1]'))
-        #)
+                    
+                    #input_box = driver.find_element(By.XPATH, '//*[@id="main"]/footer/div[1]/div/span/div/div[2]/div/div[3]/div[1]')
+                    input_box = driver.find_element(By.XPATH, '//div[@contenteditable="true"][@data-tab="10"]')
+                    input_box = WebDriverWait(driver, 30).until(
+            EC.presence_of_element_located((By.XPATH, '//div[@contenteditable="true"][@data-tab="10"]'))
+        )
                     input_box.send_keys(message)
                     input_box.send_keys(Keys.ENTER)
 
